@@ -1,0 +1,105 @@
+*{
+				margin:0;
+				padding:0;
+				box-sizing: border-box;
+}
+.lin {
+	/*  background-color: white;*/
+	display:flex;
+	background:#0d00ff ;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: solid 2px #0d00ff;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	position: sticky;
+	top: 0;
+}
+.lin a {
+	text-decoration: none;
+	/*background: orange;*/
+	color: white;
+	font-size: 25px;
+	word-spacing: 4px;
+	padding: 5px;
+}
+.link a {
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 3px;
+}
+.container{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+}
+.div1{
+				padding: 30px;
+				font-family : verdana;
+				font-size: 20px;
+}
+.div2{
+				padding: 50px;
+				margin:100px;
+				font-family : verdana;
+				font-size: 40px;
+				border: solid 5px antiquewhite;
+				border-radius: 50%;
+				background: antiquewhite;
+				display: flex;
+	   flex-direction: column;
+	   justify-content: center;
+   	text-align: center;
+}
+body{
+				background-image: url(Jon.png);
+				background-size: cover;
+}
+form input{
+    border-style : none;
+				border-bottom : solid 2px #1c15ff;
+				margin-bottom: 20px;
+}
+form .textarea{
+				border-style: solid 2px #1c15ff;
+}
+.submit{
+				height: 40px;
+				width: 20%;
+				border-style:solid;
+				color: white;
+				background-color:#1c15ff;
+				border-radius: 25px;
+}
+h2{
+				padding-bottom: 20px;
+				color: red;
+}
+h3{
+				padding-bottom: 20px;
+				color: #1c15ff;
+}
+.fool1{
+				background:#0d00ff;
+				color: white;
+				text-align: center;
+				font-size: 20px;
+}
+.fool2{
+				background: antiquewhite;
+				color: white;
+				text-align: center;
+				display: flex;
+				justify-content: space-between;
+				font-size: 40px;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-bottom: 5px;
+				padding-top:0px;
+}
+.logo img{
+				width: 60px;
+				height: 60px;
+}
